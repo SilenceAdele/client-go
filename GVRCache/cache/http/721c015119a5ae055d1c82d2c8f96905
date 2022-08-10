@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 277
+Audit-Id: 3f50e75e-4918-48d1-8bcc-140c07b5d3f3
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Tue, 09 Aug 2022 11:18:11 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 54d6daf4-b42b-4cf6-843e-6aab1df7d3e0
+X-Kubernetes-Pf-Prioritylevel-Uid: 70c2bbd6-1119-4087-89b9-ab725ceea99c
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"example.com/v1","resources":[{"name":"demos","singularName":"demo","namespaced":true,"kind":"Demo","verbs":["delete","deletecollection","get","list","watch"],"shortNames":["dm"],"storageVersionHash":"OaX4fxRX77A="}]}

@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 391
+Audit-Id: adbbffd1-7e6f-4987-b8e4-f88819f32f5f
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Tue, 09 Aug 2022 11:18:11 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 54d6daf4-b42b-4cf6-843e-6aab1df7d3e0
+X-Kubernetes-Pf-Prioritylevel-Uid: 70c2bbd6-1119-4087-89b9-ab725ceea99c
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"ingress.cloud.com/v1","resources":[{"name":"apps","singularName":"app","namespaced":true,"kind":"App","verbs":["delete","deletecollection","get","list","patch","create","update","watch"],"storageVersionHash":"H+WM1fFI6tE="},{"name":"apps/status","singularName":"","namespaced":true,"kind":"App","verbs":["get","patch","update"]}]}

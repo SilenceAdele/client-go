@@ -1,0 +1,10 @@
+HTTP/2.0 200 OK
+Content-Length: 745
+Audit-Id: 39d7f429-6be7-4679-883e-1b60cf046997
+Cache-Control: no-cache, private
+Content-Type: application/json
+Date: Tue, 09 Aug 2022 11:18:11 GMT
+X-Kubernetes-Pf-Flowschema-Uid: 54d6daf4-b42b-4cf6-843e-6aab1df7d3e0
+X-Kubernetes-Pf-Prioritylevel-Uid: 70c2bbd6-1119-4087-89b9-ab725ceea99c
+
+{"kind":"APIResourceList","apiVersion":"v1","groupVersion":"batch/v1","resources":[{"name":"cronjobs","singularName":"","namespaced":true,"kind":"CronJob","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"shortNames":["cj"],"categories":["all"],"storageVersionHash":"sd5LIXh4Fjs="},{"name":"cronjobs/status","singularName":"","namespaced":true,"kind":"CronJob","verbs":["get","patch","update"]},{"name":"jobs","singularName":"","namespaced":true,"kind":"Job","verbs":["create","delete","deletecollection","get","list","patch","update","watch"],"categories":["all"],"storageVersionHash":"mudhfqk/qZY="},{"name":"jobs/status","singularName":"","namespaced":true,"kind":"Job","verbs":["get","patch","update"]}]}
